@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(255, 230, 109, .5);
+}
+
+td, th, tr, table {
+    font-size: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    height: 15vh;
+    width: 100px;
+    transition:
+        background-color .1s, color .1s;
+}
+
+table.hidden {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    table-layout: fixed;
+    text-overflow: ellipsis;
+}
+
+td.equalsign {
+    background-color: #6CA6C1;
+}
+
+td.special {
+    background-color: #2F3061;
+    opacity: .9;
+}
+
+td.smallButton {
+    background-color: #343434;
+    color: white;
+}
+
+td:hover {
+    background-color: white;
+    color: black;
+}
+
+td#disp {
+    background-color: #F7FFF7;
+    color: black;
+    font-size: 27px;
+    border: 1px solid black;
+    overflow: hidden;
+    max-width: 400px;
+}
