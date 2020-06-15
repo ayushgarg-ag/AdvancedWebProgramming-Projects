@@ -1,0 +1,121 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    height: 125%;
+    background-color: #D2E9FF;
+    color: #666;
+}
+.form {
+        padding: 25px 100px 0px 100px;
+}
+input, textarea, select {
+    font: 200 15px/25px Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+textarea {
+    width: 95.7%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type="text"] {
+    color: #888;
+    width: 85%;
+    padding: 0 0 0 5px;
+    border: 1px solid #C5E2FF;
+    background: #FBFBFB;
+    outline: 0;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    height: 30px;
+    line-height:15px;
+    margin: 2px 6px 16px 0px;
+}
+textarea {
+    color: #888;
+    width: 94.5%;
+    padding: 6px 0 0 5px;
+    border: 1px solid #C5E2FF;
+    background: #FBFBFB;
+    outline: 0;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    line-height:15px;
+    margin: 2px 6px 16px 0px;
+    resize: none;
+    overflow: none;
+}
+
+input[type=password] {
+    color: #888;
+    padding: 0 0 0 5px;
+    border: 1px solid #C5E2FF;
+    background: #FBFBFB;
+    outline: 0;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    margin: 2px 6px 16px 0px;
+    width: 86%;
+    height: 30px;
+    box-sizing: border-box;
+}
+.checkbox {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.radio {
+    float: right;
+    /*display: inline;*/
+    width: 50%;
+    margin-bottom: 20px;
+}
+.dropdown {
+    clear: both;
+    width: 100%;
+}
+select {
+    background: #fbfbfb url('down-arrow.png') no-repeat right;
+    appearance:none;
+    /*text-indent: 0.01px;*/
+    font-size: 15px;
+    height: 30px;
+    text-overflow: '';
+    border-radius: 5px;
+    padding: 0 18px;
+    color: #888;
+    width: 78%;
+    border: 1px solid #C5E2FF;
+    background: #FBFBFB;
+    outline: 0;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    height: 30px;
+    margin: 2px 6px 16px 0px;
+
+}
+.extra{
+    text-align: center;
+}
+input[type=submit], input[type=reset] {
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+    
+}
+input[type=submit]:hover, input[type=reset]:hover{
+    background: #3EB1DD;
+}
+h1 {
+    padding: 20px 10px 0 10px;
+    text-align: center;
+    display: block;
+    background: #C0E1FF;
+    border-bottom: 1px solid #B8DDFF;
+    margin: -20px -20px 15px;
+}
+label {
+    float: left;
+    margin-top: 10px;
+    color: #5E5E5E;
+    display: block;
+    margin: 0px 0px 5px;
+}
